@@ -72,7 +72,7 @@ header li:last-child{margin-right: 0;}
 
 /* HERO */
 .hero{
-    background-image: url(/1-hotel-paraiso/img/hero.jpg); 
+    background-image: url(/img/hero.jpg); 
     background-size: cover;
     min-height: 100vh;
     color:#F1FDD1;
