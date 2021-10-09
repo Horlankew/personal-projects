@@ -20,7 +20,7 @@ a{
     cursor: pointer;
     opacity: 0.9;
 }
-/* o botão da nav tinha q ser um botão e não um link 'a' com class btn */
+
 a:hover{
     opacity: 1;
 }
@@ -72,7 +72,7 @@ header li:last-child{margin-right: 0;}
 
 /* HERO */
 .hero{
-    background-image: url(/img/hero.jpg); 
+    background-image: url(/1-hotel-paraiso/img/hero.jpg); 
     background-size: cover;
     min-height: 100vh;
     color:#F1FDD1;
@@ -343,6 +343,7 @@ footer{
     flex-direction: column;
     background-color: rgb(68, 1, 1);
     padding:50px 0;
+    align-items: center;
 
 }
 
@@ -351,9 +352,11 @@ footer div{
     margin-bottom: 25px;
 }
 
+
 footer div a{
     margin-right: 10px;
     font-size:2rem;
+    color:#6BD700;
 
 }
 
@@ -361,36 +364,5 @@ footer div a:last-child{margin-right: 0;}
 
 footer p{
     color:#6BD700;
-}
-
-#instagram{
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    -webkit-background-clip: text;
-    /* Also define standard property for compatibility */
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 50px; /* change this to change the size*/
-
-}
-
-#facebook{
-    color:rgb(66, 103, 178); 
-    background-color:#fff;
-    /* font-size: 50px; */
-    text-shadow: 1px 1px 1px #ccc;
-    width:40px;
-    height: 30px;
-}
-
-#whatsapp{
-    color:rgb(37, 211, 102);
-    background-color:#fff;
-    font-size: 50px;
-
-}
-
-#twitter{
-    background-color:rgb(29, 161, 242);
-    color:#fff;
-    font-size: 50px;
+    text-align: center;
 }
